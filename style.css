@@ -1,0 +1,73 @@
+#file_upload {
+    display: none;
+}
+
+.title {
+    color: dodgerblue;
+    font-size: 1.3rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.is-reveal {
+    display: block;
+}
+
+#img_block {
+    max-width: 1600px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    box-shadow: -0.9px 0.1px 6.1px 0.2px #696666;
+    border-radius: .1rem;
+}
+
+p {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    box-shadow: -0.9px 0.1px 6.1px 0.2px #696666;
+    border-radius: .1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: -0.9px 0.1px 6.1px 0.2px #696666;
+}
+
+#my_gallery {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.mid {
+    display: block;
+}
+
+i {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+i:hover {
+    color: dodgerblue;
+}
